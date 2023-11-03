@@ -1,6 +1,6 @@
 services:
-  impostor-bot:
-    image: antokeinanen/impostor-bot
+  discord-bot:
+    image: hhellinga/discord-bot
     restart: unless-stopped
     env_file:
       - .env
